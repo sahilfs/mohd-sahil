@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: sticky;
+    position: fixed;
+    background-color: rgb(14, 13, 13);
+    width: 100%;
+    height: 50px;
+}
+
+.heading {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+}
+
+.heading h2 {
+    color: yellow;
+}
+
+.heading h3 {
+    margin: 6px;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+}
+
+li {
+    margin: -15px auto;
+    padding: 12px;
+    list-style: none;
+}
+
+li a {
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aqua;
+    text-decoration: underline 2px solid yellow;
+}
+
+/* .box{
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+} 
+ .box{
+    background-color: rgb(201, 192, 192);
+    height: 100px;
+    width: 100%;
+} 
+.mid h3{
+    margin: auto;
+    color: blue;
+} */
+.middle {
+    width: 100%;
+    height: 280vh;
+    background-color: rgb(245, 240, 235);
+    text-align: center;
+}
+
+.midd h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(219, 77, 255);
+}
+
+.midd h4 {
+    font-size: medium;
+    font-weight: bold;
+    font-size: italic;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.midd img {
+    background-color: cyan;
+    margin: 10px auto;
+    height: 45vh;
+    width: 45vh;
+    margin: auto;
+    border-radius: 50vh;
+    background-color: darkorange;
+    border: 3px solid rgb(255, 251, 0);
+    border-style: groove yellow;
+    border-collapse: collapse;
+}
+
+.about img {
+    height: 50vh;
+    width: 80vh;
+    border-radius: 12px;
+}
+
+.about h2 {
+    text-align: center;
+    color: blueviolet;
+}
+
+.about p {
+    margin: auto;
+}
+
+.study-me {
+    background-color: rgb(245, 240, 235);
+    justify-content: center;
+}
+
+.study-me img {
+    background-color: darkmagenta;
+    background-color: calc(rgb(252,458,542));
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 50vh;
+    height: 50vh;
+    width: 240px;
+}
+
+.study-me h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(45, 48, 185);
+}
+
+.study-me p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .contact{
+    background-color: rgb(111, 111, 231);
+ } */
+.contac {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+}
+
+.contac span a {
+    text-decoration: none;
+    color: rgb(212, 0, 255);
+}
+
+.contac img {
+    background-color: chartreuse;
+    border-radius: 50px;
+    height: 25px;
+    width: 30px;
+}
+
+.contac h3 {
+    color: darkblue;
+    text-align: center;
+}
+
+.add h3 a {
+    text-decoration: none;
+}
+
+.follow {
+    display: inline;
+}
+
+.foll span h3 {
+    margin: 15px;
+}
+
+/* .follow{
+    float: right;
+    margin: 10px auto;
+} */
+.foll img {
+    background-color: blue;
+    /* margin: -20px; */
+    /* float: right; */
+    height: 25px;
+    width: 25px;
+}
+
+.foot h6 {
+    color: aliceblue;
+    background-color: rgb(111, 111, 231);
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .about img {
+        height: 27vh;
+        width: 37vh;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .study-me img {
+        border-radius: 50vh;
+        height: 20vh;
+        width: 33vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about img {
+        height: 35vh;
+        width: 45vh;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .study-me img {
+        border-radius: 50vh;
+        height: 40vh;
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .midd img {
+        margin: 10px auto;
+        height: 20vh;
+        width: 20vh;
+    }
+
+}
+@media screen and (max-width:450px){
+.midd img {
+  margin: 10px auto;
+  height: 20vh;
+  width: 20vh;
+}
+}
+@media screen and (max-width:550px) {
+    .midd img {
+        margin: 10px auto;
+        height: 35vh;
+        width: 35vh;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .study-me img {
+        border-radius: 50vh;
+        height: 45vh;
+        width: 45vh;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .midd img {
+        margin: 10px auto;
+        height: 40vh;
+        width: 40vh;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .about img {
+        height: 45vh;
+        width: 45vh;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .study-me img {
+        border-radius: 50vh;
+        height: 50vh;
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .midd img {
+        margin: 10px auto;
+        height: 50vh;
+        width: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .about img {
+        height: 40vh;
+        width: 50vh;
+        border-radius: 12px;
+    }
+}
